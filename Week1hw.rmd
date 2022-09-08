@@ -79,14 +79,14 @@ Office supplies sales were low in Fiscal Year 2020, probably due to Covid.
 
 ### A Taste of Observable
 
-### Professor Observable is using olympic medals now - not new york weather, couldn't answer the next four questions ###
-1. *In the "New York City weather forecast" section, try replacing `Forecast: detailedForecast` with `Forecast: shortForecast`. Then press the blue play button  or use Shift-Return to run your change. What happens?* ### please see my message above regarding data set ###
 
-2. *Under the scatterplot of temperature vs. name, try replacing `markCircle()` with `markSquare()`. Then press the blue play button  or use Shift-Return to run your change. What happens? How about `markPoint()`?* ### please see my message above regarding data set ###
+1. *In the "New York City weather forecast" section, try replacing `Forecast: detailedForecast` with `Forecast: shortForecast`. Then press the blue play button  or use Shift-Return to run your change. What happens?* The short description of weather for the day is given
 
-3. *Under "Pick a location, see the weather forecast", pick a location on the map.  Where was the point you picked near?* ### please see my message above regarding data set ###
+2. *Under the scatterplot of temperature vs. name, try replacing `markCircle()` with `markSquare()`. Then press the blue play button  or use Shift-Return to run your change. What happens? How about `markPoint()`?* The plot turns into a square from a circle
 
-4. *The last visualization on this page is a "fancy" weather chart embedded from another notebook.  Click on the 3 dots next to that chart and choose 'Download PNG'.  Insert the PNG into your report.* ### please see my message above regarding data set ###
+3. *Under "Pick a location, see the weather forecast", pick a location on the map.  Where was the point you picked near?* I picked Hampton roads, and it stated it was near Southhampton Meadow, Virginia.
+
+4. *The last visualization on this page is a "fancy" weather chart embedded from another notebook.  Click on the 3 dots next to that chart and choose 'Download PNG'.  [Fancy Weather Chart](https://github.com/Jarrold-Fowler/620-ODU/blob/main/untitled.png)
 
 ### Charting with Vega-Lite
 
@@ -116,3 +116,4 @@ Another example, `count()`
 
 * Insert Reference 1, [Adding markdown images](https://www.earthdatascience.org/courses/earth-analytics/document-your-science/add-images-to-rmarkdown-report/)
 * Insert Reference 2, [Getting Started with Tableau](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-focus.htm)
+* Insert Reference 3, [A Taste of Observable](https://observablehq.com/@tomb/a-taste-of-observable)
