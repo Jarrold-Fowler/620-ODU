@@ -1,7 +1,7 @@
 <body>
 
 <h1 id="hw-1-cs-625-fall-2022">HW 1, CS 625, Fall 2022</h1>
-<p>Jarrold Fowler Sep 08, 2022</p>
+<p>Jarrold Fowler Sep 08, 2022 6:40pm</p>
 <h2 id="git-github">Git, GitHub</h2>
 <ol style="list-style-type: decimal">
 <li><p>*What is your GitHub username? Jarrold-Fowler</p></li>
