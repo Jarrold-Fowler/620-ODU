@@ -1,0 +1,118 @@
+---
+title: "HW 1, CS 625, Fall 2022"
+author: "Jarrold Fowler"
+date: Sep 08, 2022
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Git, GitHub
+
+1. *What is your GitHub username? 
+Jarrold-Fowler
+
+2. *What is the URL of your remote GitHub repo (created through Mr. Kennedy's exercises)? 
+Jarrold-Fowler/620-ODU
+
+
+## R
+
+The command below will load the tidyverse package.  If you have installed R, RStudio, and the tidyverse package, it should display a list of loaded packages and their versions.
+```{r}
+library(tidyverse)
+```
+
+## R Markdown 
+
+1. *Create a bulleted list with at least 3 items*
+   - Masters of Data Science 
+   - Masters of Business Administrations
+   - Bachelor's of Arts Business Administration
+
+2. *Write a single paragraph that demonstrates the use of italics, bold, bold italics, code, and includes a link. The paragraph does not have to make sense.*
+
+Hi! My name is ***Jarrold Fowler*** and I am working on my **Master's of Data Science** degree here at *ODU*. This will be my ```degrees = 1 +2 print degrees ``` as I work towards my PH.D eventually! You can check out [My repo for CS 620](https://github.com/Jarrold-Fowler/620-ODU) here!
+
+3. *Create a level 3 heading*
+ ### This creates a Level 3 Heading
+
+## R 
+
+#### Data Visualization Exercises
+
+1. (Q2) *How many rows are in mpg? How many columns?*
+There are 234 rows and 11 columns 234x11
+1. (Q4) *Make a scatterplot of hwy vs cyl.*
+![image](https://user-images.githubusercontent.com/101736560/189215647-9d1a8683-76b5-4f1d-a893-70aa83716f76.png)
+
+
+#### Workflow: basics Exercises
+
+1. (Q2) *Tweak each of the following R commands so that they run correctly (`library(tidyverse)` is correct):*
+
+```r
+library(tidyverse)
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy)) # data was spelled incorrectly
+
+filter(mpg, cyl = 8) # Filter was spelled incorrectly
+
+filter(diamonds, carat > 3) # diamond was missing an (s)
+```
+
+## Google Colab
+
+1. *What are the URLs of your Google Colab notebooks (both Python and R)?*
+My [R Notebook](https://colab.research.google.com/drive/1Xr_090vnP9U2JZz5EJOgsO6pEIvXHa0i?usp=sharing)
+My [Jypter Notebook](https://colab.research.google.com/drive/1p-F8JBi9rBJnSwenCDktDM_cdoTMyq9w?usp=sharing)
+
+## Tableau
+[Chart Screenshot](https://github.com/Jarrold-Fowler/620-ODU/blob/main/south%20and%20west%20-%20tableau.png)
+
+1. *What conclusions can you draw from the chart?*
+Office supplies sales were low in Fiscal Year 2020, probably due to Covid.
+
+## Observable and Vega-Lite
+
+### A Taste of Observable
+
+### Professor Observable is using olympic medals now - not new york weather, couldn't answer the next four questions ###
+1. *In the "New York City weather forecast" section, try replacing `Forecast: detailedForecast` with `Forecast: shortForecast`. Then press the blue play button  or use Shift-Return to run your change. What happens?* ### please see my message above regarding data set ###
+
+2. *Under the scatterplot of temperature vs. name, try replacing `markCircle()` with `markSquare()`. Then press the blue play button  or use Shift-Return to run your change. What happens? How about `markPoint()`?* ### please see my message above regarding data set ###
+
+3. *Under "Pick a location, see the weather forecast", pick a location on the map.  Where was the point you picked near?* ### please see my message above regarding data set ###
+
+4. *The last visualization on this page is a "fancy" weather chart embedded from another notebook.  Click on the 3 dots next to that chart and choose 'Download PNG'.  Insert the PNG into your report.* ### please see my message above regarding data set ###
+
+### Charting with Vega-Lite
+
+`markCircle()`
+
+1. *Pass an option of `{ size: 200 }` to `markCircle()`.*
+1. *Try `markSquare` instead of `markCircle`.*
+1. *Try `markPoint({ shape: 'diamond' })`.*
+
+`vl.x().fieldQ("Horsepower")`, ...
+
+1. *Change `Horsepower` to `Acceleration`*
+1. *Swap what fields are displayed on the x- and y-axis*
+
+`vl.tooltip().fieldN("Name")`
+
+1. *Change `Name` to `Origin`.*
+
+Another example, `count()`
+
+1. *Remove the `vl.y().fieldN("Origin")` line.*
+1. *Replace `count()` with `average("Miles_per_Gallon")`.*
+
+## References
+
+*Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.*
+
+* Insert Reference 1, [Adding markdown images](https://www.earthdatascience.org/courses/earth-analytics/document-your-science/add-images-to-rmarkdown-report/)
+* Insert Reference 2, [Getting Started with Tableau](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-focus.htm)
